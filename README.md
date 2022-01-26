@@ -1,2 +1,10 @@
-# conversor-de-moedas-R---US-
+# conversor-de-moedas-R$ para US$
 programa feito com python
+
+r = float(input('Quanto dinheiro você tem na carteira? '))
+
+d = r / 3.27
+
+print('Com R${:.2f} você pode comprar US${:.2f}'.format(r, d))
+
+
